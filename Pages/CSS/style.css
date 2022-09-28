@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    color: #1A191E;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+    margin: auto;
+}
+
+/* navbar style css  */
+.content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-size: 32px;
+    color: #5BB5A2;
+    line-height: 100%;
+    font-weight: 700;
+    width: 150px;
+}
+
+ul.menu-item {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+}
+
+ul.menu-item li a {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: #1A191E;
+}
+
+.nav-login {
+    display: flex;
+    justify-content: space-around;
+    gap: 36px;
+    color: #5BB5A2;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 100%;
+
+}
+
+.nav-login {
+    padding: 7px;
+    cursor: pointer;
+}
+
+.nav-account {
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #5BB5A2;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: none;
+    width: 135px;
+    height: 39px;
+    cursor: pointer;
+}
+
+/* navbar end  */
+
+/* section -1 home banner start  */
+#home-banner {
+    width: 1324px;
+    height: 868px;
+    border: 2px solid blue;
+    margin: 5px;
+}
+
+.home-section {
+    width: 800px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    color: #1A191E;
+}
+
+.home-section h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    
+}
+
+.home-section h1 {
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+.home-section p {
+    width: 800px;
+    height: 72px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.home-button {
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #5BB5A2;
+    border-radius: 6px;
+    border: none;
+    padding: 16px 24px;
+    gap: 10px;
+    width: 166px;
+    height: 50px;
+    cursor: pointer;
+}
+.compare-card{
+    font-size: 18px;
+    font-weight: 500;
+    color: #5BB5A2;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.card{
+    display: flex;
+    gap: 16px;
+    
+}
+.card-img_1{
+    width: 500px;
+    height: 300px;
+    top: 192px;
+    left: 300px;
+    border-radius: 15px;
+    padding: 40px;
+    /* background-color: Linear Gradient #E3C79E 100% #D6AE7B 100%; */
+    background-color: #E3C79E;
+    border: 5px solid  ;
+    margin-top: 16px;
+}
+
+/* section -1 home banner end  */
