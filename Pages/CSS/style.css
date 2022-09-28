@@ -94,7 +94,6 @@ ul.menu-item li a {
 
 .home-section {
     width: 800px;
-    border: 2px solid black;
     margin: auto;
     margin-top: 80px;
     text-align: center;
@@ -151,20 +150,23 @@ ul.menu-item li a {
 }
 .card{
     display: flex;
-    gap: 16px;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 66px;
     
 }
-.card-img_1{
-    width: 500px;
-    height: 300px;
-    top: 192px;
-    left: 300px;
-    border-radius: 15px;
-    padding: 40px;
-    /* background-color: Linear Gradient #E3C79E 100% #D6AE7B 100%; */
+/* .card-img_1{
+    
+  
+    background-color: Linear Gradient #E3C79E 100% #D6AE7B 100%;
     background-color: #E3C79E;
-    border: 5px solid  ;
     margin-top: 16px;
+} */
+.card img{
+    width: 100%;
+    margin-top: 120px;
 }
-
+.card-img_1{
+   margin-top: 80px;
+}
 /* section -1 home banner end  */
