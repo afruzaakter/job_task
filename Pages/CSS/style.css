@@ -300,7 +300,7 @@ ul.transaction-list i{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
 
 }
 .transaction-view h2{
@@ -381,13 +381,56 @@ ul.transaction-list i{
     margin-bottom: 48px;
 }
 
+
+
+/* section -2 transaction part  end  */
+/* section -3 app cart 2 part start  */
 .app-card-part-3{
+    position: absolute;
     width: 310px;
     height: 186px;
     background:linear-gradient(108.63deg, #5BB5A2 -0.82%, #53A191 104.26%);
+    border-radius: 15px;
+    margin-top: 80px;
+   
+}
+.master-card img{
+    width: 40px;
+}
+ 
+ .app-card-visa-master{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+ }
+
+ .app-card-part-4{
+    position: absolute;
+    width: 310px;
+    height: 186px;
+    background:linear-gradient(108.63deg, #E3C79E -0.82%, #D6AE7B
+    104.26%);
     border-radius: 15px;
     margin-top: 22px;
    
 }
 
-/* section -2 transaction part  end  */
+.app-card-saving-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 300px;
+ }
+ .app-card-saving img{
+    margin-left: 5px;
+ }
+ .app-card-home {
+    color: #5BB5A2;
+ }
+ .account-icon {
+    margin-left: 12px;
+ }
+
+/* section -3 app cart 2 part end  */
