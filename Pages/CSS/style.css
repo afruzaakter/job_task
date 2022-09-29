@@ -87,7 +87,6 @@ ul.menu-item li a {
 #home-banner {
     width: 1324px;
     height: 868px;
-    border: 2px solid blue;
     margin: 5px;
 }
 
@@ -277,6 +276,118 @@ ul.transaction-list i{
    font-weight: 700;
 
 }
-/* transaction card part end  */
+.app-card-money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+.send-money{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+.receive-money{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+.transaction-view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+
+}
+.transaction-view h2{
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+}
+.transaction-view p{
+    font-size: 16px;
+    color: #5BB5A2;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+}
+.apple{
+    width: 310px;
+    height: 65px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.apple p{
+    font-size: 16px;
+    line-height: 140%;
+}
+.apple-icon{
+ width: 40px;
+ height: 40px;
+ background-color: #5BB5A2;
+ border-radius: 6px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ font-size: 16px;
+}
+.apple-icon-content{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 16px;
+}
+.apple-icon-content span{
+    font-size: 12px;
+    line-height: 160%;
+}
+.apple-icon-content p{
+    font-size: 16px;
+    line-height: 140%;
+}
+
+ /* app card last saving part  */
+ .app-card-saving{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 22px;
+ }
+ .app-card-saving img{
+    margin-left: 5px;
+ }
+ .app-card-home {
+    color: #5BB5A2;
+ }
+ .account-icon {
+    margin-left: 12px;
+ }
+
+/* transaction app card part -1  end  */
+/* section-3 app card part -2  start  */
+#manage-card{
+    margin-top: 160px;
+}
+/* section-3 app card part -2  end */
+
+.app-card-setting{
+    margin-bottom: 48px;
+}
+
+.app-card-part-3{
+    width: 310px;
+    height: 186px;
+    background:linear-gradient(108.63deg, #5BB5A2 -0.82%, #53A191 104.26%);
+    border-radius: 15px;
+    margin-top: 22px;
+   
+}
 
 /* section -2 transaction part  end  */
