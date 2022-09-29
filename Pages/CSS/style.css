@@ -461,13 +461,14 @@ ul.transaction-list i{
     justify-content: space-between;
     align-items: flex-end;
     width: 1200px;
-    height: 44px;
+    height: 400px;
     margin: auto;
+    
 }
 .statistics-content{
    display: flex;
    justify-content: space-around;
-   align-items: c;
+   align-items: center;
    margin: auto;
   
 }
@@ -495,10 +496,144 @@ ul.transaction-list i{
     gap: 20px;
 }
 
+   /* easy part design  */
+   .easy-integration-main{
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    margin: auto;
+   }
+   .easy-integration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 378px;
+    height: 550px;
+    margin-top: 68px;
    
-/* .statistice-img-1{
-    width: 100%;
-    height: 80%;
-} */
+   }
+   .easy-content{
+    width: 299px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+   }
+   .easy-content h1{
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+   }
+   .easy-content p{
+    font-size: 18px;
+    line-height: 180%;
+   }
 
+ .easy-card img{
+  width: 100%;
+  margin-left: 25px;
+
+}
 /* section-4 blank content end  */
+/* section -5 choose your card part start   */
+.card-section {
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    color: #1A191E;
+    font-size: 20px;
+}
+.card-section h1{
+    font-size: 64px;
+    line-height: 110%;
+letter-spacing: -0.03em;
+}
+.card-section p{
+    font-size: 20px;
+    line-height: 180%;
+    font-family: 'Inter';
+    
+}
+
+.basic-free{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+.basic-free-card{
+    width: 357.33px;
+    height: 448px;
+    
+}
+.basic-free-content{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.basic-free-content h1{
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+}
+.basic-free-content span{
+    font-size: 12px;
+    line-height: 180%;
+    color: #5BB5A2;
+   
+}
+.basic-free-content-1 h1{
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+.basic-free-content-1 p{
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+}
+.visa-card-part-1{
+    width: 355px;
+    height: 213px;
+    background:linear-gradient(108.63deg, #485563 -0.82%, #29323C 104.26%);
+    border-radius: 15px;
+    margin-top: 22px;
+   
+}
+.master-card-part-3{
+    width: 355px;
+    height: 213px;
+    background:linear-gradient(108.63deg, #5BB5A2 -0.82%, #53A291 104.26%);
+    border-radius: 15px;
+    margin-top: 22px;  
+}
+.master-card-part-1{
+    width: 355px;
+    height: 213px;
+    background:linear-gradient(108.63deg, #E3C79E -0.82%, #D6AE7B 104.26%);
+    border-radius: 15px;
+    margin-top: 22px;  
+}
+
+.get-start-button{
+    width: 357.33px;
+    height: 39px;
+    background: #5BB5A2;
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 10px;
+}
+
+/* section -5 choose your card part end   */
