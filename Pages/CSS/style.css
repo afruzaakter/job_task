@@ -374,6 +374,7 @@ ul.transaction-list i{
 /* section-3 app card part -2  start  */
 #manage-card{
     margin-top: 160px;
+    margin-bottom: 140px;
 }
 /* section-3 app card part -2  end */
 
@@ -434,3 +435,25 @@ ul.transaction-list i{
  }
 
 /* section -3 app cart 2 part end  */
+
+/* section-4 blank content start  */
+.bank-section {
+    width: 800px;
+    margin: auto;
+    height: 158px;
+    text-align: center;
+    padding: 15px;
+    font-style: normal;
+    color: #1A191E;
+}
+.bank-section h1{
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    line-height: 110%;
+}
+.bank-section p{
+    font-size: 17px;
+    font-family: 'Inter';
+    line-height: 180%;
+}
+/* section-4 blank content end  */
