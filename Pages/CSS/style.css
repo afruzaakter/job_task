@@ -16,6 +16,7 @@ body {
 
 a {
     text-decoration: none;
+    
 }
 
 .container {
@@ -598,10 +599,11 @@ align-items: center;
     text-align: center;
     margin-top: 15px;
 }
-.basic-free-content-1 p{
+.basic-free-content-1 p, span{
     font-size: 16px;
     line-height: 160%;
     text-align: center;
+    font-weight: 500;
 }
 .visa-card-part-1{
     width: 355px;
@@ -637,3 +639,103 @@ align-items: center;
 }
 
 /* section -5 choose your card part end   */
+
+/* section -6 faq part start  */
+.faq-section{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+}
+.faq-section h1{
+ font-size: 64px;
+ line-height: 110%;
+ letter-spacing: -0.03em;
+ column-gap: #1A191E;
+ margin-bottom: 48px;
+}
+.contact{
+    width: 388.67px;
+    height: 134px;
+}
+.phone-contact{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.phone-contact i{
+    color: #5BB5A2;
+
+}
+.phone-contact p{
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+}
+.phone-contact span{
+    color: rgba(26, 25, 30, 0.5);
+    font-size: 14px;
+    font-family: 'Inter';
+    line-height: 116%;
+}
+
+/* section -6 faq part end  */
+/* footer part css style start  */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 26px;
+    margin-top: 140px;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+ list-style: none;
+ font-family: 'Inter';
+ font-size: 16px;
+ line-height: 160%;
+ color: rgba(26, 25, 30, 0.5);
+}
+
+.head-title{
+    font-size: 18px;
+    color: #1A191E;
+    letter-spacing: -0.03em;
+    line-height: 140%;
+    margin-bottom: 10px;
+  
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin: 30px;
+    margin-bottom: 48px;
+}
+.copyright h1{
+    font-size: 14px;
+    font-family: 'Inter';
+    line-height: 160%;
+    color: rgba(26, 25, 30, 0.5);
+}
+.copyright span{
+    color: #5BB5A2;
+}
+.impressum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;  
+    color: rgba(26, 25, 30, 0.5);
+    font-size: 14px;
+    font-family: 'Inter';
+}
+.impressum:hover{
+    color: #5BB5A2;
+    cursor: pointer;
+}
+/* footer part css style end  */
