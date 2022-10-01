@@ -537,11 +537,34 @@ ul.transaction-list i{
     font-size: 18px;
     line-height: 180%;
    }
+   .easy-card{
+    width: 378px;
+    height: 550px;
+   }
 
  .easy-card img{
   width: 100%;
   margin-left: 25px;
 
+
+}
+.company-logo{  
+    width: 375px;
+    height: 212px;
+    margin: 15px;
+}
+
+.logo-part-1{
+    display: flex;
+}
+.company-logo-img{
+    width: 131px;
+    height: 60px;
+}
+
+
+.easy-card-laptop{
+    margin-right: 20px;
 }
 /* section-4 blank content end  */
 /* section -5 choose your card part start   */
