@@ -443,7 +443,8 @@
                   <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
                 </div>
                 <div class="easy-card">
-                  <img src="./Images/card-img/grid.png" alt="">
+                  <!-- <img src="./Images/card-img/grid.png" alt=""> -->
+                  
                 </div>
                </div>
               <div class="easy-integration">
@@ -469,7 +470,7 @@
           <div class="apple"> 
             <div class="apple-icon-content">
               <div class="apple-icon">
-                <img src="./Images/vector-img/Vector (1).png"/>
+                <img class=" apple-img " src="./Images/vector-img/Vector (1).png"/>
               </div>
               <div>
                 <p>apple</p>
@@ -481,7 +482,7 @@
           <div class="apple"> 
             <div class="apple-icon-content">
               <div class="apple-icon">
-                <img src="./Images/vector-img/Vector (2).png"/>
+                <img class=" apple-img " src="./Images/vector-img/Vector (2).png"/>
               </div>
               <div>
                 <p>Google Play Store</p>
@@ -493,7 +494,7 @@
           <div class="apple"> 
             <div class="apple-icon-content">
               <div class="apple-icon">
-                <img src="./Images/vector-img/Vector (3).png"/>
+                <img class=" apple-img " src="./Images/vector-img/Vector (3).png"/>
               </div>
               <div>
                 <p>Amazon</p>
@@ -679,6 +680,56 @@
                     <a href=""> Support <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                   <!-- FAQ part  -->
+                  
+                    <div class="accordion">
+                      <!-- faq 1 -->
+                      <div class="contentBx">
+                        <div class="label">
+                          How do I open an Banko account?
+                        </div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.</p>
+                        </div>
+                      </div>
+                      <!-- faq 2-->
+                      <div class="contentBx">
+                        <div class="label">
+                          How do I order a new card?
+                        </div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.</p>
+                        </div>
+                      </div>
+                      <!-- faq 3-->
+                      <div class="contentBx">
+                        <div class="label">
+                          How to change my account limits?
+                        </div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.</p>
+                        </div>
+                      </div>
+                      <!-- faq 4-->
+                      <div class="contentBx">
+                        <div class="label">
+                          How does Banko premium works?
+                        </div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.</p>
+                        </div>
+                      </div>
+                      <!-- faq 5-->
+                      <div class="contentBx">
+                        <div class="label">
+                          Can I have two Banko accounts?
+                        </div>
+                        <div class="content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.</p>
+                        </div>
+                      </div>
+  
+                    </div>
+                 
                 </div>
 
               </div>
@@ -735,5 +786,17 @@
              </footer>
 
              <!-- footer part end  -->
+
+             <!-- JavaScript work start  -->
+             <script>
+              const accordion = document.getElementsByClassName('contentBx');
+
+              for(i = 0; i<accordion.length; i++){
+                accordion[i].addEventListener('click',  function(){
+                  this.classList.toggle('active')
+                })
+              }
+             </script>
+             <!-- JavaScript work end  -->
 </body>
 </html>
