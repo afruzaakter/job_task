@@ -52,6 +52,15 @@ ul.menu-item li a {
     color: #1A191E;
 }
 
+ul.menu-item li a:hover{
+    color: #FFFFFF;
+    background-color: #53A291;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3x;
+
+}
+
 .nav-login {
     display: flex;
     justify-content: space-around;
@@ -62,6 +71,10 @@ ul.menu-item li a {
     font-style: normal;
     line-height: 100%;
 
+}
+.nav-login:hover{
+   
+  color: #29323C;
 }
 
 .nav-login {
@@ -114,6 +127,9 @@ ul.menu-item li a {
     font-weight: 500;
     letter-spacing: -0.03em;
 }
+.home-section h1:hover{
+    color: #5BB5A2;
+}
 
 .home-section p {
     width: 800px;
@@ -137,6 +153,13 @@ ul.menu-item li a {
     width: 166px;
     height: 50px;
     cursor: pointer;
+}
+.home-button:hover{
+    color: #FFFFFF;
+    background-color: #D6AE7B;
+    border-radius: 6px;
+    border: none;
+    padding: 16px 24px;
 }
 .compare-card{
     font-size: 18px;
@@ -196,6 +219,9 @@ ul.menu-item li a {
   letter-spacing: -0.03em;
   
 }
+.transaction-content h1:hover{
+    color: #5BB5A2;
+}
 .transaction-content p{
     width: 538.65px;
     height: 96px;
@@ -210,6 +236,7 @@ font-weight: 500;
 font-family: 'Inter';
 line-height: 180%;
 }
+
 ul.transaction-list i{
     color: #5BB5A2;
 }
@@ -225,6 +252,7 @@ ul.transaction-list i{
     border-radius: 50px;
     padding: 20px;
 }
+
 .app-card-part-1{
     display: flex;
     justify-content: space-between;
@@ -241,7 +269,10 @@ ul.transaction-list i{
     background:linear-gradient(108.63deg, #485563 -0.82%, #29323C 104.26%);
     border-radius: 15px;
     margin-top: 22px;
-   
+    cursor: pointer;
+}
+.app-card-part-2:hover{
+    background:linear-gradient(108.63deg, #D6AE7B -0.82%, #D6AE7B 104.26%);
 }
  .volume{
     display: flex;
@@ -455,6 +486,9 @@ ul.transaction-list i{
     letter-spacing: 0.03em;
     line-height: 110%;
 }
+.bank-section h1:hover{
+    color: #53A291;
+}
 .bank-section p{
     font-size: 17px;
     font-family: 'Inter';
@@ -639,12 +673,18 @@ align-items: center;
     margin-top: 22px;
    
 }
+.visa-card-part-1:hover{
+    background:linear-gradient(108.63deg, #5BB5A2 -0.82%, #53A291 104.26%);
+}
 .master-card-part-3{
     width: 355px;
     height: 213px;
     background:linear-gradient(108.63deg, #5BB5A2 -0.82%, #53A291 104.26%);
     border-radius: 15px;
     margin-top: 22px;  
+}
+.master-card-part-3:hover{
+    background:linear-gradient(108.63deg, #E3C79E -0.82%, #D6AE7B 104.26%);
 }
 .master-card-part-1{
     width: 355px;
@@ -653,7 +693,9 @@ align-items: center;
     border-radius: 15px;
     margin-top: 22px;  
 }
-
+.master-card-part-1:hover{
+    background:linear-gradient(108.63deg, #5BB5A2 -0.82%, #53A291 104.26%);
+}
 .get-start-button{
     width: 357.33px;
     height: 39px;
@@ -731,6 +773,7 @@ align-items: center;
     position: relative;
     padding: 10px;
     background-color: #5BB5A2;
+    color: #F8F8F8;
     border-radius: 3px;
     cursor: pointer;
     
@@ -790,7 +833,11 @@ align-items: center;
     letter-spacing: -0.03em;
     line-height: 140%;
     margin-bottom: 10px;
+    cursor: pointer;
   
+}
+.head-title:hover{
+    color: #5BB5A2;
 }
 
 .copyright{
@@ -824,3 +871,70 @@ align-items: center;
     cursor: pointer;
 }
 /* footer part css style end  */
+
+/* ***********************Media query Mobile Device CSS style start  *************************************** */
+
+@media only screen and (max-width: 577px){
+    /* .card{
+       display: flex;
+       flex-direction: column;
+    } */
+    .home-section {
+        width: 350px;
+        height: 250px;
+        margin: 20px;
+       text-align: center;
+    }
+    .home-section h1{
+        font-size: 45px;
+        
+    }
+    .home-section p{
+        width: 400px;
+        text-align: start;
+    }
+    .compare-card{
+        margin-left: 6px;
+    }
+    .transaction-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin: 0;
+    }
+    .basic-free{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .faq-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .easy-integration-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bank-section{
+        width: 335px;
+        height: 245px;
+    }
+    .statistics-content{
+        flex-direction: column;
+    }
+    .statistics{
+        display: flex;
+        flex-direction: column;
+        width: 365px;
+        margin: 20px;
+        /* height: 400px; */
+    }
+    .card-section{
+        width: 400;
+
+    }
+    
+}
