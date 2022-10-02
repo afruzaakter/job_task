@@ -911,7 +911,7 @@ align-items: center;
     .faq-section{
         display: flex;
         flex-direction: column;
-        align-items: center;
+      
     }
     .easy-integration-main{
         display: flex;
@@ -924,7 +924,17 @@ align-items: center;
     }
     .statistics-content{
         flex-direction: column;
+        
     }
+    .statistics-content-1 h1{
+        margin-top: 20px;
+    }
+   .statistics-card{
+   margin-top: 40px;
+   }
+   .statistics-img-1{
+    width: 50%;
+   }
     .statistics{
         display: flex;
         flex-direction: column;
@@ -933,8 +943,31 @@ align-items: center;
         /* height: 400px; */
     }
     .card-section{
-        width: 400;
+        width: 378px;
 
     }
+.transaction-content{
+    width: 541px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.transaction-content h1{
+    font-size: 53px;
+}
+.transaction-content p{
+   width: 390px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
     
 }
